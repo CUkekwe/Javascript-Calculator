@@ -14,7 +14,7 @@ body{
     padding: 20px;
     border-radius:1px ;
  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
- background-color: rgba(156, 156, 156,.2);
+ background-color: rgba(145, 145, 141,.4);
  width: 550px;
  height: 650px;
  display: inline-block;
@@ -30,46 +30,81 @@ body{
    background-color: white;
 }
 
+.input:hover{
+box-shadow: inset 0px 1px 4px 0px rgb(143, 150, 214);
+transition: .2s; 
+}
+
 .operators div{
-    border: 1px solid;
+   border: 1px solid;
+   border-color: rgb(24, 120, 245);
     display: inline-block;
-    margin: 20px;
-width: 80px;
- background-color: rgb(24, 148, 212 );
+  margin-left: 0px;
+margin-right: 5px;
+margin-bottom: 5px;
+width: 20%;
+height: 60px;
+line-height: 60px;
+ background-color: rgba(24, 120, 245, .6 );
+}
+
+.operators div:hover{
+transition: .1s;
+box-shadow: inset 0px 1px 4px 0px rgb(1, 18, 177); 
 }
 
 .numbers div{
-margin: 20px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 5px;
 width: 80px;
 background-color: white;
+width:30% ;
+border: 1px solid #ddd;
+height: 60px;
+line-height: 60px;
+text-align: center;
+align-items: ;
+}
+
+.numbers div:hover{
+    transition: .2s;
+    box-shadow: inset 0px 1px 4px 0px rgba(99, 160, 230, 0.815);
 }
 
 .numbers1 div{
     display:inline-block ;
-    border:1px solid;
+    
 }
 
 .numbers2 div{
     display:inline-block ;
-    border:1px solid;
+   
 }
 
 .numbers3 div{
     display:inline-block ;
-    border:1px solid;
+    
 }
 
 .numbers4 div{
     display:inline-block ;
-    border:1px solid;
+    
 }
 
 .equal{
-    border:1px solid;
-    width: 50px;
+    border:1px;
+    border-color: rgb(24, 120, 245);
+    width: 130px;
     align-items: center;
     display: inline-block;
     padding: 10px 200px;
-    background-color: rgb(24, 148, 212 );
+    background-color: rgba(24, 120, 245, .6);
+   
+}
+
+.equal:hover{
+transition: .1s;
+box-shadow: inset 0px 1px 4px 0px rgb(1, 18, 177);
 }
 
